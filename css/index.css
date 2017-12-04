@@ -1,0 +1,66 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.bg-1{
+  background-color: rgb(120,200,120);
+  color: #ffffff;
+}
+.bg-2{
+  background-color: rgb(150,150,200);
+  color: #ffffff;
+}
+.bg-3{
+  background-color: rgb(255,255,255);
+  color: #555555;
+}
+.bg-4{
+  background-color: rgb(150,150,150);
+}
+img{
+  width: 180px;
+  height: 180px;
+}
+.web_images{
+  padding: 20px 10px;
+}
+/*Styling the contact form*/
+input[type=text], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]{
+  cursor: pointer;
+}
+.container{
+  border-radius: 5px;
+  background-color: rgb(250,250,255);
+  padding: 20px;
+}
+a:link{
+  color:#ffffff;
+}
+/*styling navbar*/
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover{
+  color: rgb(150,250,100) !important;
+}

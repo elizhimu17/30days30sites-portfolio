@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="wodth=device-width,initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <!-- Adding bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" name="button" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html#page-1">Me</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#page-1">Who</a></li>
+            <li><a href="#page-2">What</a></li>
+            <li><a href="#page-3">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center" id="#page-1">
+      <h3>The Portfolio of</h3>
+      <img src="images/image.jpg" class="img-responsive img-circle" style="display:inline" alt="Photo">
+      <h3>Himaja Dhulipudi</h3>
+      <h4>Web Developer</h4>
+    </div>
+    <div class="container-fluid bg-2 text-center" id="page-2">
+      <h3>What Am I?</h3>
+      <p>Hiii!! My name is Himaja. I'm an entry-level web developer. I have passion in developing websites and would like to take every opportunity to prove myself worthy. I did my Master'and Bachelor's degree in Computer Science.
+      <div class="container-fluid">
+      <h4>Sample Webpages created by me</h4>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://codepen.io/elizhimu/full/BpVpWm"><img src="images/tribute.png" style="width:100%" class="img-responsive web_images" alt="Tribute Page"></a>
+          <a href="https://codepen.io/elizhimu/full/BpVpWm"><h4>Tribute Page</h4></a>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/work_in_progress.png" style="width:100%" class="img-responsive web_images" alt="Other Websites">
+          <h4>UpComing websites</h4>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/work_in_progress.png" style="width:100%" class="img-responsive web_images" alt="Other Websites">
+          <h4>Upcoming Websites</h4>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="container-fluid bg-3 text-center" id="page-3">
+      <h3>Leave a message</h3>
+      <div class="container">
+        <form method="post" action="">
+          <label for="name">Name:</label>
+          <input type="text" name="name" value="" id="name" placeholder="Jack">
+
+          <label for="message">Message:</label>
+          <textarea name="message" rows="8" cols="80" id="message" placeholder="Type your message here...."></textarea>
+
+          <input type="submit" class="btn btn-default btn-lg" name="submit" value="submit">
+        </form>
+      </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+      <p>Copyright &copy; 2017 Portfolio Made by me using Bootstrap theme</p>
+    </footer>
+  </body>
+</html>
